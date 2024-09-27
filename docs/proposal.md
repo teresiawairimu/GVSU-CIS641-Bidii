@@ -1,3 +1,4 @@
+
 Team name: Bidii
 
 Team members: Teresia Nduati
@@ -71,3 +72,5 @@ Delays due to learning new concepts: I need to integrate Google Calender API and
 Delays due to debugging errors: I may encounter errors that will take longer than expected to debug. I plan to look for solutions online and seek help from colleagues if an error takes more than a week to resolve. Meanwhile, I will continueworking on other tasks, especially those unrelated to the error.
 
 Alternative technologies: If some technologies are difficult to implement or costly to deploy, I consider alternatives. For example, I could deploy backend services using Firebase functions instead of Heroku.
+
+>>>>>>> 9d426d7f3ee2994c1ea62c3a918798d495e11ee2
