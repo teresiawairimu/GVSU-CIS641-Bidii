@@ -1,49 +1,52 @@
-
 Team name: Bidii
 
 Team members: Teresia Nduati
-Introduction
+
+# Introduction
 
 Currently, the Wellness and Spa Center's receptionists handle client bookings. As business is thriving, receptionists are struggling to manage bookings along with other administrative tasks. Clients are also complaining about long wait times, and employees feel overworked due to handling a high volume of clients. These challenges have highlighted the need to automate the boking process to monitor the number of clients each therapist handles and prevent employee dissatisfaction. The proposed system will also allow receptionists to focus on admnistrative tasks, enabling them to serve promptly. Overall, the Center will benefit from more bookings since clients will no longer need to visit the reception or call to make appointments.
 
 The Application Management System aims to streamline the appointment booking process at the Wellness and Spa Center. Clients will use the system to book specific time slots for services. After booking, they can use the system to cancel or reschedule their appointments. The system will also send notifications about upcoming appointments, helping to minimize cancellations by keeping clients updated.Cancellation and rescheduling will adhere to the company's policies, ensuring that last-minute cancellations, such as those made a some few hours before an appointment, may incur charges. These policies will ensure that the system is not misuse the system.
-Anticipated Technologies
 
-(What technologies are needed to build this project) The proposed system is a web application that requires both front and backend development. Frontend
+# Anticipated Technologies
 
-    ReactJs
-    Boostrap
+The proposed system is a web application that requires both front and backend development.
 
-Backend
+**Frontend**
 
-    Node.js with Express
+- ReactJs
+- Boostrap
 
-Database
+**Backend**
 
-    Firebase Firestore
+- Node.js with Express
 
-Authentication
+**Database**
 
-    Firebase AUthentication
+- Firebase Firestore
 
-Notifications
+**Authentication**
 
-    Sendgrid
+- Firebase Authentication
 
-Payment
+**Notifications**
 
-    Stripe
+- Sendgrid
 
-Additional Tools
+**Payment**
 
-    Google Calender API
+- Stripe
 
-Deployment
+**Additional Tools**
 
-    Frontend: Github pages
-    Backend: Heroku
+- Google Calender API
 
-Method/Approach
+**Deployment**
+
+- Frontend: Github pages
+- Backend: Heroku
+
+# Method/Approach
 
 Scrum will be used the software development process because it allows self-organizing and self-direction. Sprints will be one or two weeks long, depending on the complexity of the tasks involved. The developer will participate in daily standups to discuss what was achieved the previous day, what will be done that day, and any obtacles faced. Execution will involve working on small tasks and tracking progress.
 
@@ -52,7 +55,8 @@ At the end of each sprint, there will be a sprint review to provide feedback on 
 The sprints will be tracked on a Trello Board, and daily stand-up meetings will be recorded on the Todoist App. The progress recorded on the Todoist App and Trello Board will be used to compile the weekly updates for the project sponsor.
 
 This approach will help me to stay organized and continuously improve through the weekly and daily stand-ups.
-Estimated Timeline
+
+# Estimated Timeline
 
 Week 1 (September 29 - October 5): UML Designs - Focus on creating use case, activity diagrams, and defining system architecture
 
@@ -65,7 +69,8 @@ Week 6 - 7 (November 3 - November 16): Integrate backend with frontend, and setu
 Week 8 (November 17 - November 23): Add notification feature and refine any remianing features.
 
 Week 9 (November 24 - November 30): Perform integration testing, deployment and make final adjustments.
-Anticipated Problems
+
+# Anticipated Problems
 
 Delays due to learning new concepts: I need to integrate Google Calender API and Stripe API. It is unclear how long it will take to understand and use the two APIs. I plan to read the documentation and use online tools such as Chatgpt to understand their usage. I may also seek help from colleagues who are experienced with these APIs.
 
@@ -73,4 +78,3 @@ Delays due to debugging errors: I may encounter errors that will take longer tha
 
 Alternative technologies: If some technologies are difficult to implement or costly to deploy, I consider alternatives. For example, I could deploy backend services using Firebase functions instead of Heroku.
 
->>>>>>> 9d426d7f3ee2994c1ea62c3a918798d495e11ee2
