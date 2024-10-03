@@ -10,11 +10,12 @@ Time: 10:03 am
 
 Discussion points:
 
-* Reduced requirements: Noticed that the project has many deliverables. May choose to integrate one API that is Sendgrid and allow users to pay after receiving the service because implementation may be limited to one month. 
-* Ask Project Sponsor whether changes can be made to the use case and activity diagrams.
+* Reduce requirements: Wondering whether payment should be done after receiving the service instead of during booking.   
+* 
 *
 
 Goals for next week (include responsibilities)
 
 * Class diagrams, CRC cards, and object diagrams.
 * Redesign the use case diagrams and activity diagram if allowed.
+* Set up environment and build backend APIs.
