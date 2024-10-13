@@ -23,7 +23,7 @@ email: nduatiteresia82@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Appointment Scheduling System is a web application that allows users to book, modify and cancel appointments.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://teresiawairimu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 exclude:
   - node_modules
   - src
