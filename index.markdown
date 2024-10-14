@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<section id="hero">
+<section id="overview">
   <div class="container">
     <div class="content">
       <div class="text">
@@ -30,9 +30,15 @@ layout: home
        </ul>
        <h2> Development Methodology </h2>  
        <p> 
-         Implemented using **Scrum** methodology, with 7-day sprints, daily standups, and weekly reports to ensure progress and feedback-driven development.
+         Implemented using Scrum methodology, with 7-day sprints, daily standups, and weekly reports to ensure progress and feedback-driven development.
         </p>
       </div>
     </div>
   </div>
+</section>
+<section class="Important-links">
+  <h2> Links to project artifacts and docs </h2>
+  <ul>
+    <li> [Proposal](https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md) </li>
+    <li> [Software Requirement Specification](https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification.md) </li>
 </section>
