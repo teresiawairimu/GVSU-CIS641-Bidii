@@ -24,11 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Appointment Scheduling System is a web application that allows users to book, modify and cancel appointments.
 baseurl: "/GVSU-CIS641-Bidii" # the subpath of your site, e.g. /blog
 url: "https://teresiawairimu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-theme: jekyll-theme-minima
+theme: minima
 exclude:
   - node_modules
   - src
-  - README.md
+  - "**/README.md"
 twitter_username: jekyllrb
 github_username:  jekyll
 

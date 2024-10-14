@@ -36,4 +36,3 @@ layout: home
     </div>
   </div>
 </section>
-
