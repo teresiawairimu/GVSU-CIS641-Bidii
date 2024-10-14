@@ -29,8 +29,8 @@ exclude:
   - node_modules
   - src
   - "**/README.md"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: "https://www.linkedin.com/in/teresia-nduati-642ba2128"
+github_username:  "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main"
 
 # Build settings
 theme: minima
