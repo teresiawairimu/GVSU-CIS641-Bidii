@@ -36,7 +36,7 @@ layout: home
     </div>
   </div>
 </section>
-<section class="Important-links">
+<section id="Important-links">
   <h2> Links to project artifacts and docs </h2>
   <ul>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md">Proposal</a></li>
