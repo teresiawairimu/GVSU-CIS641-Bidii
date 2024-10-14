@@ -30,7 +30,7 @@ exclude:
   - src
   - "**/README.md"
 linkedin_username: "https://www.linkedin.com/in/teresia-nduati-642ba2128"
-github_username:  "https://github.com/teresiawairimu/GVSU-CIS641-Bidii"
+github:  "https://github.com/teresiawairimu"
 
 # Build settings
 theme: minima
