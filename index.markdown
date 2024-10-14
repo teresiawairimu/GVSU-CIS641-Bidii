@@ -3,7 +3,7 @@
 layout: home
 ---
 <section id="overview" class="container">
-  <h1>Appointment Scheduling System - Project Overview</h1>
+  <h1>Project Overview</h1>
   <p>
   The Appointment Scheduling System is a web application designed for managing client bookings at a wellness and spa center. It features a client-side interface for booking appointments and an admin-side dashboard for viewing and managing bookings.
   </p>
@@ -34,4 +34,5 @@ layout: home
   <ul>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md">Proposal</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification.md">Software Requirements Specification</a> </li>
+  </ul>
 </section>
