@@ -29,8 +29,8 @@ exclude:
   - node_modules
   - src
   - "**/README.md"
-linkedin_username: "https://www.linkedin.com/in/teresia-nduati-642ba2128"
-github_username: "https://github.com/teresiawairimu"
+linkedin_username: teresia-nduati-642ba2128
+github_username: teresiawairimu
 
 # Build settings
 theme: minima
