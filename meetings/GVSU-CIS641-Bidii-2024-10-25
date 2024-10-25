@@ -1,0 +1,23 @@
+# Meeting minutes template
+
+Team name: Bidii
+
+Members present: Teresia Nduati
+
+Date: 10-25-2024
+
+Time: 11:52 a.m
+
+Discussion points:
+
+* For the past two weeks, I have been working on integrating the Stripe API.
+I found a way to do it using a Payment Link that is created on Stripe's dashboard. I implemented it, but I cannot use it because I need to associate the payment with an appointment using an appointment Id that changes dynamically.
+* I have also started defining the other data models but they are dependent on integration with Stripe API so I am working on that.
+
+Goals for next week
+* Finishing Stripe API integration. 
+* Finishing creating the other models or backend endpoints.
+* Write unit tests and documentation
+
+
+
