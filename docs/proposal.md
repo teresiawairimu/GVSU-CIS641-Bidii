@@ -30,22 +30,10 @@ The proposed system is a web application that requires both front and backend de
 
 - Firebase Authentication
 
-**Notifications**
-
-- Sendgrid
-
 **Payment**
 
 - Stripe
 
-**Additional Tools**
-
-- Google Calender API
-
-**Deployment**
-
-- Frontend: Github pages
-- Backend: Heroku
 
 # Method/Approach
 
@@ -67,15 +55,15 @@ Week 4 - 5 (October 20 - November 2): Develop core frontend components and desig
 
 Week 6 - 7 (November 3 - November 16): Integrate backend with frontend, and setup payment functionality.
 
-Week 8 (November 17 - November 23): Add notification feature and refine any remaining features.
+Week 8 (November 17 - November 23): Refine any remaining features.
 
-Week 9 (November 24 - November 30): Perform integration testing, deployment and make final adjustments.
+Week 9 (November 24 - November 30): Perform integration testing and make final adjustments.
 
 # Anticipated Problems
 
-Delays due to learning new concepts: I need to integrate Google Calender API and Stripe API. It is unclear how long it will take to understand and use the two APIs. I plan to read the documentation and use online tools such as Chatgpt to understand their usage. I may also seek help from colleagues who are experienced with these APIs.
+Delays due to learning new concepts: I need to integrate Stripe API. It is unclear how long it will take to understand and use the API. I plan to read the documentation and use online tools such as Chatgpt to understand their usage. I may also seek help from colleagues who are experienced with these APIs.
 
 Delays due to debugging errors: I may encounter errors that will take longer than expected to debug. I plan to look for solutions online and seek help from colleagues if an error takes more than a week to resolve. Meanwhile, I will continue working on other tasks, especially those unrelated to the error.
 
-Alternative technologies: If some technologies are difficult to implement or costly to deploy, I will consider alternatives. For example, I could deploy backend services using Firebase functions instead of Heroku.
+Alternative technologies: If some technologies are difficult to implement, I will consider alternatives. For example, I could deploy backend services using Firebase functions instead of Heroku.
 
