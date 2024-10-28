@@ -4,11 +4,13 @@
   "description": "Backend API for a spa booking system with Stripe integration",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-ngrok": "ngrok http 3000"
   },
   "author": "Teresia Nduati",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "stripe": "^17.2.1"
   }
 }
