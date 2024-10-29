@@ -34,5 +34,6 @@ layout: home
   <ul>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md">Proposal</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification.md">Software Requirements Specification</a> </li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main/artifacts">Artifacts</a></li>
   </ul>
 </section>
