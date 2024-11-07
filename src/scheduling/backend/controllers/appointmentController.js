@@ -14,6 +14,12 @@ const createPaymentClient = async (req, res) => {
       status: 'pending',
     })
     const appointmentId = appointmentRef.id;
+
+    const clientRef = db.collection('clients').doc(uid);
+    await clientRef.update({
+      appointments: db.FieldValue.arrayUnion(appointmentId),
+    });
+    
     const paymentIntent = await stripe.paymentIntents.create({
       amount: amountInCents,
       currency: 'usd',
