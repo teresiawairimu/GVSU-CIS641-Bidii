@@ -22,9 +22,13 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
     if (event.type === 'payment_intent.payment_failed') {
         const paymentIntent = event.data.object;
         const appointmentId = paymentIntent.metadata.appointmentId;
+        const slotId = paymentIntent.metadata.slotId;
 
         await db.collection('appointments').doc(appointmentId).update({
             status: 'failed'
+        });
+        await db.collection('appointmentSlots').doc(slotId).update({
+            status: 'available'
         });
     }
 
