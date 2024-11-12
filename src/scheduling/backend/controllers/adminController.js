@@ -29,7 +29,39 @@ const createAdmin = async(req, res) => {
     res.status(500).json({ error: 'Failed to create admin' });
   }
 };
+
+const modifyAdmin = async (req, res) => {
+  try {
+      const { id } = req.user.uid;
+      const { email, phone } = req.body;
+      await admin.firestore().collection('users').doc(id).update({
+          email: email,
+          phone: phone,
+          updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      });
+      res.status(200).json({ message: 'profile updated successfully' });
+  } catch (error) {
+      console.error('Error updating profile:', error);
+      res.status(500).json({ error: 'Failed to update profile' });
+  }
+};
+
+const deleteAdmin = async (req, res) => {
+  try {
+      const { id } = req.user.uid;
+
+      await admin.firestore().collection('users').doc(id).delete();
+
+      res.status(200).json({ message: 'Profile deleted successfully' });
+  } catch (error) {
+      console.error('Error deleting profile:', error);
+      res.status(500).json({ error: 'Failed to delete profile' });
+  }
+};
+
           
 module.exports = {
-    createAdmin
-}
+    createAdmin,
+    modifyAdmin,
+    deleteAdmin,
+};

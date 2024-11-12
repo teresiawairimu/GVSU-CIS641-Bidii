@@ -58,11 +58,24 @@ const updateAppointment = async(res, req) => {
       });
       res.status(200).json({message: 'Appointment updated successfully'});
   } catch(error) {
-    console.error('Failed to update appointment,' error);
-    res.status(500).json({})
+    console.error('Failed to update appointment:', error);
+    res.status(500).json({error: 'Failed to update appointment'});
+  }
+};
+
+const cancelAppointment = async(req,res) => {
+  try {
+    const {id} = req.params;
+    await db.listCollections('appointments').doc(id).delete();
+    res.status(200).json({message: 'Appointment deleted successfully'});
+  } catch(error) {
+    console.error('Failed to delete an appointment:', error);
+    res.status(500).json({error: 'Failed to delete an appointment'});
   }
 }
 
 module.exports = {
-  createPaymentClient
-}
+  createPaymentClient,
+  updateAppointment,
+  cancelAppointment,
+};
