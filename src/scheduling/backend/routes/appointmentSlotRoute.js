@@ -3,15 +3,17 @@ const router = express.Router();
 const {
     addAppointmentSlot,
     retrieveAppointmentSlot,
+    retrieveAppointmentSlotById,
     updateAppointmentSlot,
     deleteAppointmentSlot,
-} = require('../controllers/appointmentController')
+} = require('../controllers/appointmentSlotController')
 
 const { verifyFirebaseToken } = require ('../middleware');
 
-router.post('/create', verifyFirebaseToken, addAppointmentSlot);
-router.get('/', retrieveAppointmentSlot)
-router.put('/update:id', verifyFirebaseToken, updateAppointmentSlot);
-router.delete('/delete:id', verifyFirebaseToken, deleteAppointmentSlot);
+router.post('/', verifyFirebaseToken, addAppointmentSlot);
+router.get('/', verifyFirebaseToken, retrieveAppointmentSlot);
+router.get('/:id', verifyFirebaseToken, retrieveAppointmentSlotById);
+router.put('/:id', verifyFirebaseToken, updateAppointmentSlot);
+router.delete('/:id', verifyFirebaseToken, deleteAppointmentSlot);
 
 module.exports = router;

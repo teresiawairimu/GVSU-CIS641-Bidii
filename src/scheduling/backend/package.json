@@ -10,7 +10,12 @@
   "author": "Teresia Nduati",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "doctype": "^3.0.1",
     "dotenv": "^16.4.5",
-    "stripe": "^17.2.1"
+    "express": "^4.21.1",
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.0",
+    "stripe": "^17.3.1"
   }
 }
