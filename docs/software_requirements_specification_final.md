@@ -26,11 +26,25 @@
 
 - The app must handle up to 1,000 concurrent user signups and logins without noticeable latency.
 
-## Application Slots Management
+## Application Management
 
 **Functional Requirements**
 
-## Application Management
+- The app shall allow users to add appointments when they click the create appointment button.
+
+- The app shall allow users to modify appointments when they click the date and time section. 
+
+- The app shall allow users to cancel appointments when they click the delete icon and confirm with "Yes" in the confirmation message.
+
+- The app shall allow an admin to view the available appointments when they click the appointment link.
+
+- The app shall allow users to select services from a dropdown menu while scheduling an appointment.
+
+**Non-functional Requirements**
+
+ 
+
+## Application Slots Management
 
 ## Payment Integration
 
