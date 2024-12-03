@@ -119,3 +119,15 @@
 - Services are tied to appointments, with service IDs stored in paymnet metadata through stripe.
 
 - The app shall provide services in a dropdown menu with details such as name, cost, and duration of the service for appointment slot creation.
+
+**Non-functional Requirements**
+
+- Service data must sync accurately across the system with 99.9% reliability.
+
+- Admins should be able to manage services with no more than 3 clicks per operation.
+
+- Only authorized admins can manage services, and all actions must be logged.
+
+- Service management features must be accessible with an uptime of 99.9%.
+
+- All changes to services must be logged and retained for at least 12 months.
