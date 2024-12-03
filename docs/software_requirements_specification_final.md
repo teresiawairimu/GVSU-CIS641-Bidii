@@ -58,7 +58,17 @@
 
 **Functional Requirements**
 
-- The admin shall create appointment slot by clicking the "Add Appointment Slot" button.
+- The admin shall create appointment slots by clicking the "Add Appointment Slot" button.
+
+- The app shall allow the admin to select a provider, service, date, start times, and duration of the service while creating an appointment slot.
+
+- The app shall display appointment slots with the status, "Available" to users when they select a specific service.
+
+- The app shall display available appointments on the admin's dashboard.
+
+- The app must prevent double-booking by marking an appointment slot as "booked" once it is scheduled.
+
+**Non-functional Requirements**
 
 
 ## Payment Integration
