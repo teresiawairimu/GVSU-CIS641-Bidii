@@ -36,8 +36,6 @@
 
 - The app shall allow users to cancel appointments by clicking the delete icon and confirming with "Yes" in the confirmation message.
 
-- The app shall allow an admin to view the available appointments by clicking the "Appointment" link.
-
 - The app shall allow users to view their booked appointments as upcoming appointment on the dashboard.
 
 - The app shall allow users to select services from a dropdown menu while scheduling an appointment.
@@ -70,6 +68,15 @@
 
 **Non-functional Requirements**
 
+- Appointment slot creation should be completed in under 2 seconds.
+
+- The interface for managing appointment slots should require no more than 3 steps for actions such as adding an appointment slot.
+
+- Slot management data should be accessible only to authorized admins, with audit trails for all changes.
+
+- Slot management functionality must be accessible with an uptime of 99.9%.
+
+- The app must adhere to relevant data privacy laws when managing provider-related data.
 
 ## Payment Integration
 
