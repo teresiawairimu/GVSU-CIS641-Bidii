@@ -96,6 +96,15 @@
 
 **Non-functional Requirements**
 
+- Payment processing should be completed within 5 seconds after user submission.
 
+- All payment data must be encrypted during transmission and comply with PCI DSSstandards.
+
+- Payment management services shall be accessible with an uptime of 99.9%.
+
+- The payment interface must provide clear feedback on payment status within 3 seconds.
+
+- All payment transactions must be logged and stored securely for 12 months.
+ 
 
 ## Service Management
