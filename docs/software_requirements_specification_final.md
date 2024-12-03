@@ -1,11 +1,11 @@
-## Requirements
+# Requirements
 
-# User Management
+## User Management
 
-# Application Slots Management
+## Application Slots Management
 
-# Application Management
+## Application Management
 
-# Payment Integration
+## Payment Integration
 
-# Service Management
+## Service Management
