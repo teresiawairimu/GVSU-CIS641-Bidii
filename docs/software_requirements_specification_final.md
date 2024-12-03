@@ -38,6 +38,8 @@
 
 - The app shall allow users to view their booked appointments as upcoming appointment on the dashboard.
 
+- The app shall display the upcoming appointments only when their status changes to booked upon confirmation of the payment.
+
 - The app shall allow users to select services from a dropdown menu while scheduling an appointment.
 
 **Non-functional Requirements**
@@ -79,5 +81,23 @@
 - The app must adhere to relevant data privacy laws when managing provider-related data.
 
 ## Payment Integration
+
+**Functional Requirements**
+
+- The app creates payment intents using Stripe, with appointment fees fixed at $30.
+
+- The app shall use Stripe's testmode in development, and live mode in production.
+
+- The app shall inform users about the non-refundable application fee on the appointment creation page.
+
+- The app shall only allow card payments as the method of payment for the application fee.
+
+- An application's status shall be "pending" until payment is confirmed using Stripe's webhook.
+
+- The app shall display upcoming appointments only when their status changes to "Booked" upon confirmation of the payment.
+
+**Non-functional Requirements**
+
+
 
 ## Service Management
