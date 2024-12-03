@@ -30,21 +30,36 @@
 
 **Functional Requirements**
 
-- The app shall allow users to add appointments when they click the create appointment button.
+- The app shall allow users to add appointments by clicking the "Create Appointment" button.
 
-- The app shall allow users to modify appointments when they click the date and time section. 
+- The app shall allow users to modify appointments by clicking the date and time section. 
 
-- The app shall allow users to cancel appointments when they click the delete icon and confirm with "Yes" in the confirmation message.
+- The app shall allow users to cancel appointments by clicking the delete icon and confirming with "Yes" in the confirmation message.
 
-- The app shall allow an admin to view the available appointments when they click the appointment link.
+- The app shall allow an admin to view the available appointments by clicking the "Appointment" link.
+
+- The app shall allow users to view their booked appointments as upcoming appointment on the dashboard.
 
 - The app shall allow users to select services from a dropdown menu while scheduling an appointment.
 
 **Non-functional Requirements**
 
- 
+- The app shall allow appointment bookings to be completed in under 3 seconds.
+
+- App data must be encrypted both in transit and at rest in Firestore.
+
+- New appointment features should be implemented with minimal code changes.
+
+- Appointment management services should be accessible with an uptime of 99.9%.
+
+- Appointment data must be accurately stored abd retrievable 99.9% of the time.
 
 ## Application Slots Management
+
+**Functional Requirements**
+
+- The admin shall create appointment slot by clicking the "Add Appointment Slot" button.
+
 
 ## Payment Integration
 
