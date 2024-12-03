@@ -104,7 +104,18 @@
 
 - The payment interface must provide clear feedback on payment status within 3 seconds.
 
-- All payment transactions must be logged and stored securely for 12 months.
- 
+- All payment transactions must be logged and stored securely for 12 months. 
 
 ## Service Management
+
+**Functional Requirements**
+
+- In development, services shall be defined in Firestore as documents.
+
+- In production, the app shall allow admins to create, modify, and delete services.
+
+- The app shall provide services in a dropdown menu for client bookings.
+
+- Services are tied to appointments, with service IDs stored in paymnet metadata through stripe.
+
+- The app shall provide services in a dropdown menu with details such as name, cost, and duration of the service for appointment slot creation.
