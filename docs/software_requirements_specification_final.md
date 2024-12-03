@@ -38,7 +38,7 @@
 
 - The app shall allow users to view their booked appointments as upcoming appointment on the dashboard.
 
-- The app shall display the upcoming appointments only when their status changes to booked upon confirmation of the payment.
+- The app shall display upcoming appointments only when their status changes to "Booked" upon confirmation of the payment.
 
 - The app shall allow users to select services from a dropdown menu while scheduling an appointment.
 
@@ -93,8 +93,6 @@
 - The app shall only allow card payments as the method of payment for the application fee.
 
 - An application's status shall be "pending" until payment is confirmed using Stripe's webhook.
-
-- The app shall display upcoming appointments only when their status changes to "Booked" upon confirmation of the payment.
 
 **Non-functional Requirements**
 
