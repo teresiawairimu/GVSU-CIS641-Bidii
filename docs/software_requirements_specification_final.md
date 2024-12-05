@@ -18,7 +18,7 @@
 
 - The app shall allow an admin to create application slots and users to schedule appointments.
 
-**Application Management**
+### Application Management
 
 - The app shall allow users to add appointments by clicking the "Create Appointment" button.
 
@@ -32,7 +32,7 @@
 
 - The app shall allow users to select services from a dropdown menu while scheduling an appointment.
 
-**Application Slots Management**
+### Application Slots Management
 
 - The admin shall create appointment slots by clicking the "Add Appointment Slot" button.
 
@@ -44,7 +44,7 @@
 
 - The app must prevent double-booking by marking an appointment slot as "booked" once it is scheduled.
 
-**Payment Integration**
+### Payment Integration
 
 - The app creates payment intents using Stripe, with appointment fees fixed at $30.
 
@@ -56,7 +56,7 @@
 
 - An application's status shall be "pending" until payment is confirmed using Stripe's webhook.
 
-**Service Management**
+### Service Management
 
 - In development, services shall be defined in Firestore as documents.
 
@@ -70,7 +70,7 @@
 
 ## Non-functional Requirements
 
-**User Management**
+### User Management
 
 - The user data must be encrypted both in transit using HTTPS and at rest in Firestore.
 
@@ -82,7 +82,7 @@
 
 - The app must handle up to 1,000 concurrent user signups and logins without noticeable latency.
 
-**Application Management**
+### Application Management
 
 - The app shall allow appointment bookings to be completed in under 3 seconds.
 
@@ -94,7 +94,7 @@
 
 - Appointment data must be accurately stored abd retrievable 99.9% of the time.
 
-**Application Slots Management**
+### Application Slots Management
 
 - Appointment slot creation should be completed in under 2 seconds.
 
@@ -106,7 +106,7 @@
 
 - The app must adhere to relevant data privacy laws when managing provider-related data.
 
-**Payment Integration**
+### Payment Integration
 
 - Payment processing should be completed within 5 seconds after user submission.
 
@@ -118,7 +118,7 @@
 
 - All payment transactions must be logged and stored securely for 12 months. 
 
-**Service Management**
+### Service Management
 
 - Service data must sync accurately across the system with 99.9% reliability.
 
