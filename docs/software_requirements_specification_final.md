@@ -1,8 +1,12 @@
+# Software Requirement Specification
+
+# Overview
+
 # Software Requirements
 
 ## Functional Requirements
 
-**User Management**
+### User Management
 
 - The app shall allow users to create an account when they click the sign-up link.
 
