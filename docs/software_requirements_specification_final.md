@@ -302,4 +302,10 @@ This section demonstrates the relationship between requirements and other artifa
 
 This section includes the artifacts developed during the software development process.
 
-- [Link to the project artifacts](https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main/artifacts)  
+- [Link to the project artifacts](https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main/artifacts)
+
+# References
+
+Bridges, J. June 20, 2024. How to Make a Change Management Plan (Example & Template Included). Retrieved from https://www.projectmanager.com/training/how-to-make-a-change-management-plan
+What is a Requirements Traceability Matrix (RTM)?. Retrieved from https://www.perforce.com/resources/alm/requirements-traceability-matrix
+Kruger, G. & Lane, C. January 17, 2023. How to Write an SRS Document (Software Requirements Specification Document). Retrieved from https://www.perforce.com/blog/alm/how-write-software-requirements-specification-srs-document
