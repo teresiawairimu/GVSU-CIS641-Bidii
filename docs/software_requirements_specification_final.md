@@ -136,29 +136,31 @@ A change management plan is a document outlining the process for planning, implm
 
 ## Change Management Plan for the Application Management System
 
-### Training Plan
+### 1.1 Training Plan
 
-#### Identify User Roles
+This tarining plan outlines how different user groups will undergo training concering the usage of the application management system.
+
+#### 1.2 Identify User Roles
 
 The initial phase of implementation involves clearly identifying the roles of system users, as the rollout will occur in multiple stages.
 
-**Phase 1: Administrator training**
+##### 1.2.1 Phase 1: Administrator training
 
 During the first release, administrators will be the primary users. They will be trained on data entry processes to input information about available services and service providers into the system.
 
-**Phase 2: Provider Onboarding**
+##### 1.2.2 Phase 2: Provider Onboarding
 
 The second release will focus on enabling service providers to manage data entry related to their own services and availability. This phase ensures providers can directly update their schedules and service offerings in the system.
 
-**Administrator Support Role**
+##### 1.2.3 Administrator Support Role
 
 Throughout both phases, administrators will play a critical role in supporting clients who prefer to book appointments over the phone, ensuring a smooth transition and consistent customer experience.
 
-**Client Training**
+##### 1.2.4 Client Training
 
 Clients are a vital user group and the training will be commence during phase 2 when the system is fully functional. The application will be designed with clients in mind, featuring a user-friendly interface that minimizes the need for formal training. Key features, such as booking appointments and viewing schedules, will be self-explanatory with clear instructions and tooltips.
 
-#### Create Role-Specific Training Materials 
+#### 2.1 Create Role-Specific Training Materials 
 
 ##### Administrators
 
