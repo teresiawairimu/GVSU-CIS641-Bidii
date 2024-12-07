@@ -1,9 +1,13 @@
 # Software Requirement Specification
 
 # Overview
-<description>
+
+The Software Requirements Specification (SRS) outlines the intended functionality and expected performance of the software. It details the features and capabilities required to meet the needs of all stakeholders, including business objectives and user expectations. It also provides a comprehensive overview of the project, serving as a single, reliable reference point for all teams involved in development. Additionally, it acts as a strategic guide, ensuring consistency and alignment across development, testing, and maintenance teams.
+
 # Software Requirements
-<description>
+
+This section outlines the functional and non-functional requirements categorized under key features of the system. Each feature includes specific functional requirements (FR) detailing the expected operations and non-functional requirements (NFR) specifying performance, security, and usability standards. This structured approach ensures clarity and alignment with project objectives.
+ 
 ## Functional Requirements
 
 ### User Management
