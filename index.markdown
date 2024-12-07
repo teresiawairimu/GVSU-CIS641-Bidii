@@ -35,7 +35,7 @@ layout: home
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md">Proposal</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/system%20request-2.pdf">System Request</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification.md">Software Requirements Specification</a> </li>
-    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification_final.md">Software Requirements Specifications</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification_final.md">Software Requirements Specifications Final</a></li>
   </ul>
   <h3> Links to project artifacts </h3>
   <ul>
