@@ -262,5 +262,13 @@ Assign a response team trained to handle different categories of issues, from mi
 
 Define Service Level Agreements (SLAs) to ensure timely resolution of issues based on their severity. High-priority issues, such as system crashes or outages, require immediate attention, with a response time within 1 hour and resolution within 24 hours to minimize disruptions. Medium-priority issues, such as non-critical bugs, should have a response time within 8 hours and a resolution timeframe of 3 business days to maintain functionality without compromising ongoing operations. Low-priority issues, such as minor feature enhancements, can be addressed during scheduled updates, ensuring continuous improvement without disrupting the system’s stability. These SLAs provide a structured approach to issue resolution, fostering user confidence and maintaining system reliability.
 
+# Traceability links
 
+This section demonstrates the relationship between requirements and other artifacts. Traceability ensures that requirements are fulfilled and provides evidence of their completion.
+
+## Use Case Diagram Traceability
+
+|Artifact ID | Artifact Name | Requirement ID|
+|            |               |               |
+|            |               |               |
 
