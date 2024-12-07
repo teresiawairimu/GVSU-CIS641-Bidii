@@ -1,2 +1,2 @@
-const api_base_url = "http://localhost:3000";
+const api_base_url = "http://localhost:5002";
 export default api_base_url;

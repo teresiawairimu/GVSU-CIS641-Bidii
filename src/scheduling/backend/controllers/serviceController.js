@@ -75,12 +75,30 @@ const retrieveService = async (req, res) => {
       ...doc.data()
     }));
     res.status(200).json(services);
-    console.log("services", services);
+    /*console.log("services", services);*/
   } catch (error) {
     console.error('Error retrieving services:', error);
     res.status(500).json({ error: 'Failed to retrieve services' });
   }
 };
+
+const retrieveServiceById = async(req, res) => {
+  try {
+    const {id} = req.params;
+    const serviceRef = admin.firestore().collection('services').doc(id);
+    const serviceDoc = await serviceRef.get();
+    if (!serviceDoc.exists) {
+      return res.status(404).json({error: "No document"});
+    }
+    return res.status(200).json({
+      id: serviceDoc.id,
+    ...serviceDoc.data()
+  });
+  } catch (error) {
+    console.error("Error retrieving service:", error);
+    res.status(500).json({error: 'Internal server error'});
+  }
+}
 
 (async () => {
   try {
@@ -93,4 +111,5 @@ const retrieveService = async (req, res) => {
 
 module.exports = {
     retrieveService,
+    retrieveServiceById,
 };

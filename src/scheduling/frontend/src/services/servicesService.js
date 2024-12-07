@@ -14,3 +14,16 @@ export const getService = async (idToken) => {
   );
   return response.data;
 }
+
+export const getServiceById = async(serviceId, idToken) => {
+  console.log('serviceId', serviceId);
+  const response = await axios.get(`${service_api_url}/${serviceId}`,
+    {
+      headers: {
+        Authorization: `Bearer ${idToken}`,
+      },
+      withCredentials: true,
+      }
+    );
+    return response.data;
+}

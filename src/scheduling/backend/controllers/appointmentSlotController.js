@@ -40,6 +40,7 @@ const retrieveAppointmentSlot = async(req, res) => {
             ...doc.data(),
         }));
         res.status(200).json(appointmentSlots);
+        console.log("appointmentSlots", appointmentSlots);
     } catch(error) {
         console.error('Error retrieving appointment slot:', error);
         res.status(500).json({ error: 'Failed to retrieve appointment slots'});

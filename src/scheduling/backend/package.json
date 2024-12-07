@@ -4,7 +4,7 @@
   "description": "Backend API for a spa booking system with Stripe integration",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start-ngrok": "ngrok http 3000"
   },
   "author": "Teresia Nduati",
@@ -17,5 +17,10 @@
     "firebase": "^11.0.2",
     "firebase-admin": "^13.0.0",
     "stripe": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sinon": "^19.0.2",
+    "supertest": "^7.0.0"
   }
 }

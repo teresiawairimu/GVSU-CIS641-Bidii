@@ -4,12 +4,14 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const { admin, db } = require('../firebaseAdmin');
 
 router.post('/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
+  console.log('Webhook endpoint hit')
   const sig = req.headers['stripe-signature'];
   const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
   let event;
 
   try {
     event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret);
+    console.log('event constructed:', event.type)
 
     const eventRef = admin.firestore().collection('processedEvents').doc(event.id);
     const eventDoc = await eventRef.get();
@@ -21,6 +23,7 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
     
     if (event.type === 'payment_intent.succeeded' || event.type === 'payment_intent.payment_failed') {
       const paymentIntent = event.data.object;
+      console.log("Metadata:", paymentIntent.metadata);
       const { appointmentId, slotId } = paymentIntent.metadata;
       const status = event.type === 'payment_intent.succeeded' ? 'booked' : 'failed';
       const slotStatus = event.type === 'payment_intent.succeeded' ? 'booked' : 'available';
@@ -31,12 +34,6 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
           { status }  
         );
 
-        if (slotId) {
-          transaction.update(
-            admin.firestore().collection('appointmentSlots').doc(slotId),
-            { status: slotStatus}
-          );
-        }
        transaction.set(eventRef, { 
          processedAt: admin.firestore.FieldValue.serverTimestamp(),
          eventType: event.type

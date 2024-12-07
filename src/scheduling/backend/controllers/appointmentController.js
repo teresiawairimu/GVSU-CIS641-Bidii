@@ -6,23 +6,23 @@ const createPaymentClient = async (req, res) => {
   try {
     const amountInCents = 3000;
     const { uid } = req.user;
-    const { date, time, slotId, service } = req.body;
+    const { date, time, serviceId } = req.body;
+    console.log("req.body", req.body);
 
-    const slotRef = admin.firestore().collection('appointmentSlots').doc(slotId);
+    {/*const slotRef = admin.firestore().collection('appointmentSlots').doc(slotId);
 
     await admin.firestore().runTransaction(async (transaction) => {
       const slotDoc = await transaction.get(slotRef);
       if (!slotDoc.exists || slotDoc.data().status !== 'available') {
         throw new Error('Slot is no longer available');
       }
-    });
+    });*/}
 
     const appointmentRef = await admin.firestore().collection('appointments').add({
       userId: uid,
       date,
       time,
-      service,
-      slotId,
+      serviceId,
       status: 'pending',
       createdAt: admin.firestore.FieldValue.serverTimestamp()
     });
@@ -40,7 +40,6 @@ const createPaymentClient = async (req, res) => {
         appointmentId,
         date,
         time,
-        slotId,
       },
     });
     res.status(200).json({clientSecret: paymentIntent.client_secret, appointmentId})
@@ -70,18 +69,20 @@ const updateAppointment = async(req, res) => {
   try {
       const { id } = req.params;
       const {date, time} = req.body;
-      const appointmentRef = await admin.firestore()
+      const appointmentRef = admin.firestore()
       .collection('appointments')
-      .doc(id)
-      .get();
+      .doc(id);
 
-      if (!appointmentRef.exists) {
+      const doc = await appointmentRef.get();
+     
+
+      if (!doc.exists) {
         return res.status(404).json({error: 'Appointment not found'})
       }
-      if (appointmentRef.data().userId !== req.user.uid) {
+      if (doc.data().userId !== req.user.uid) {
         return res.status(403).json({error: 'Not authorized'})
       }
-      await db.collection('appointments').doc(id).update({
+      await appointmentRef.update({
           date,
           time,
       });

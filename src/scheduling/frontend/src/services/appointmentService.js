@@ -17,7 +17,7 @@ export const createAppointment = async(appointmentData, idToken) => {
     return response.data;
 };
 
-export const retrieveAppointments = async (userId, idToken) => {
+export const retrieveAppointments = async (UserId, idToken) => {
     const response = await axios.get(`${appointment_api_url}`,
      {
        headers: {

@@ -7,6 +7,7 @@ import { getProviders } from '../services/providerService';
 import Service from '../models/Service';
 import Provider from '../models/Provider';
 import { useParams, useNavigate } from 'react-router-dom';
+import NavbarComponent from '../components/NavbarComponent';
 
 
 
@@ -135,10 +136,14 @@ const AppointmentSlotFormPage = () => {
   };
 
   return (
-    <Container>
-      <Row className="justify-content-center nt-4">
-        <Col xs={12} sm={10} md={8} lg={6}>
-          <h2>{isEditMode ? 'Edit Appointment Slot' : 'Create Appointment Slot'}</h2>
+    <div className="min-h-screen">
+      <div className="w-full">
+        <NavbarComponent />
+      </div> 
+      <Container>
+        <Row className="justify-content-center nt-4">
+          <Col xs={12} sm={10} md={8} lg={6}>
+            <h2>{isEditMode ? 'Edit Appointment Slot' : 'Create Appointment Slot'}</h2>
             {error &&  <Alert variant="danger">{error}</Alert>}
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formProvider" className="mb-3">
@@ -151,7 +156,7 @@ const AppointmentSlotFormPage = () => {
                 >
                   <option value="">Select a Provider</option>
                   {providers.map((provider) => (
-                    <option key={provider.id} value={provider.id}>
+                    <option key={provider.getId()} value={provider.getId()}>
                         {provider.formatForDisplay()}
                     </option>
                   ))}
@@ -167,7 +172,7 @@ const AppointmentSlotFormPage = () => {
                 >
                   <option value="">Select a Service</option>
                   {services.map((service) => (
-                    <option key={service.id} value={service.id}>
+                    <option key={service.getId()} value={service.getId()}>
                       {service.formatForDisplay()}
                     </option>
                   ))}
@@ -215,12 +220,11 @@ const AppointmentSlotFormPage = () => {
               >
                 {isLoading ? 'Saving...' : isEditMode ? 'Update Slot' : 'Create Slot'}
               </Button>
-                        
-
             </Form>
         </Col>
       </Row>
     </Container>
+   </div>
   )
 
 }

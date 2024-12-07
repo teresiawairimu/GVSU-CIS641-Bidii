@@ -19,3 +19,15 @@ export const registerUser = async(userData, idToken) => {
     return response.data;
 };
 
+export const getUserById = async(idToken) => {
+    const response = await axios.post(user_api_url, {},
+        {
+            headers: {
+                Authorization: `Bearer ${idToken}`,
+                'Content-Type': 'application/json',
+            },
+            withCredentials: true,
+        }
+    );
+    return response.data;
+}

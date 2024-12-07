@@ -29,6 +29,20 @@ const createUser = async(req, res) => {
     }
 };
 
+const retrieveProfileById = async(req, res) => {
+  try {
+    const { uid } = req.user;
+    const userDoc = await db.collection('users').doc(uid).get();
+    if (!userDoc.exists) {
+      return res.status(404).json({error: 'User not found'});
+    }
+    const userData = userDoc.data();
+    res.status(200).json(userData);
+  } catch (error){
+    res.status(500).json({error: error.message});
+  }
+}
+
 const retrieveProfile = async(req, res) => {
   try {
     const usersSnapshot = await db.collection('users').get();
@@ -79,6 +93,7 @@ const deleteUser = async (req, res) => {
 
 module.exports = {
   createUser,
+  retrieveProfileById,
   retrieveProfile,
   modifyUser,
   deleteUser,
