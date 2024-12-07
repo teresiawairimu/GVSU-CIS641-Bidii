@@ -298,4 +298,4 @@ This section demonstrates the relationship between requirements and other artifa
 
 This section includes the artifacts developed during the software development process.
 
- 
+- [Link to the project artifacts](https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main/artifacts)  
