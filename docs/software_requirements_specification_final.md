@@ -144,19 +144,19 @@ This training plan outlines how different user groups will undergo training rega
 
 The initial phase of implementation involves clearly identifying the roles of system users, as the rollout will occur in multiple stages.
 
-##### Phase 1: Administrator training
+**Phase 1: Administrator training**
 
 During the first release, administrators will be the primary users. They will be trained on data entry processes to input information about available services and service providers into the system.
 
-##### Phase 2: Provider Onboarding
+**Phase 2: Provider Onboarding**
 
 The second release will focus on enabling service providers to manage data entry related to their own services and availability. This phase ensures providers can directly update their schedules and service offerings in the system.
 
-##### Administrator Support Role
+**Administrator Support Role**
 
 Throughout both phases, administrators will play a critical role in supporting clients who prefer to book appointments over the phone, ensuring a smooth transition and consistent customer experience.
 
-##### Client Role
+**Client Role**
 
 Clients are a vital user group and the training will be commence during phase 2 when the system is fully functional. The application will be designed with clients in mind, featuring a user-friendly interface that minimizes the need for formal training. Key features, such as booking appointments and viewing schedules, will be self-explanatory with clear instructions and tooltips.
 
