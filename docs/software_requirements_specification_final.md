@@ -138,7 +138,7 @@ A change management plan is a document outlining the process for planning, implm
 
 ### Training Plan
 
-#### Identify user roles
+#### Identify User Roles
 
 The initial phase of implementation involves clearly identifying the roles of system users, as the rollout will occur in multiple stages.
 
@@ -153,4 +153,13 @@ The second release will focus on enabling service providers to manage data entry
 **Administrator Support Role**
 
 Throughout both phases, administrators will play a critical role in supporting clients who prefer to book appointments over the phone, ensuring a smooth transition and consistent customer experience.
- 
+
+**Client Training**
+
+Clients are a vital user group and the training will be commence during phase 2 when the system is fully functional. The application will be designed with clients in mind, featuring a user-friendly interface that minimizes the need for formal training. Key features, such as booking appointments and viewing schedules, will be self-explanatory with clear instructions and tooltips.
+
+#### Create Role-Specific Training Materials 
+
+##### Administrators
+
+
