@@ -45,5 +45,6 @@ layout: home
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/Use%20Cases%20and%20Activity%20diagrams-4.pdf">Use Case and Activity Diagram</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/classSpecification-2.pdf">Class Specification</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/mid-term-presentation.odp.pptx">Midterm PowerPoint Presentation</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/Gantt%20Chart(2).png">Gantt Chart</a></li>
   </ul>
 </section>
