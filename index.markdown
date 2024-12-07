@@ -17,11 +17,10 @@ layout: home
   </ul>
   <ul>
     <h3> Key Features </h3>
-    <li> Client-side booking and cancellation system </li>
-    <li> Admin dashboard for appointment management</li>
+    <li> Client-side booking system </li>
+    <li> Admin dashboard for appointment slot management</li>
     <li> Real-time appointment availability </li>
     <li> Secure authentication and user management </li>
-    <li> Email notifications for booking confirmation </li>
   </ul>
   <h3> Development Methodology </h3>  
   <p> 
