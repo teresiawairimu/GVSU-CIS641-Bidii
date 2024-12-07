@@ -269,6 +269,6 @@ This section demonstrates the relationship between requirements and other artifa
 ## Use Case Diagram Traceability
 
 |Artifact ID | Artifact Name | Requirement ID|
-|            |               |               |
+|------------|---------------|---------------|
 |            |               |               |
 
