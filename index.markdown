@@ -30,10 +30,20 @@ layout: home
 </section>
 
 <section id="Important-links" class="container">
-  <h3> Links to project artifacts and docs </h3>
+  <h3> Links to project docs </h3>
   <ul>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/proposal.md">Proposal</a></li>
     <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification.md">Software Requirements Specification</a> </li>
-    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/tree/main/artifacts">Artifacts</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/docs/software_requirements_specification_final.md">Software Requirements Specifications</a></li>
+  </ul>
+  <h3> Links to project artifacts </h3>
+  <ul>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/CRC%20Card%20Building%20Pagenew.pdf">CRC Cards</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/HW5%20-%20Class%20Diagrams%20-1.pdf">Class and Object Diagrams</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/IC4%20-%20Sequence%20%2B%20State%20Diagrams-1.pdf">Sequence and Statediagrams</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/InterfaceDiagram-3-1.pdf">Interface Diagram</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/Use%20Cases%20and%20Activity%20diagrams-4.pdf">Use Case and Activity Diagram</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/classSpecification-2.pdf">Class Specification</a></li>
+    <li><a href = "https://github.com/teresiawairimu/GVSU-CIS641-Bidii/blob/main/artifacts/mid-term-presentation.odp.pptx">Midterm PowerPoint Presentation</a></li>
   </ul>
 </section>
