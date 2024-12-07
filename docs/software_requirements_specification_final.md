@@ -50,12 +50,20 @@
 ### Service Management
 
 | ID   | Requirement
-|------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| FR22 | In development, services shall be defined in Firestore as documents.                                                                         |
-| FR23 | In production, the app shall allow admins to create, modify, and delete services.                                                            |
-| FR24 | The app shall provide services in a dropdown menu for client bookings.                                                                       |
-| FR25 | Services are tied to appointments, with service IDs stored in paymnet metadata through stripe.                                               |
-| FR26 | The app shall provide services in a dropdown menu with details such as name, cost, and duration of the service for appointment slot creation.|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| FR22 | In the first release, services shall be pre-defined and programmatically added to Firestore through backend scripts, not through client-side input.|
+| FR23 | In future releases, the app shall allow admins to create, modify, and delete services.                                                             |
+| FR24 | The app shall provide services in a dropdown menu for client bookings.                                                                             |
+| FR25 | Services are tied to appointments, with service IDs stored in payment metadata through stripe.                                                     |
+| FR26 | The app shall provide services in a dropdown menu with details such as name, cost, and duration of the service for appointment slot creation.      |
+
+### Provider Management
+
+| ID   | Requirement
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| FR27 | In the first release, providers shall be pre-defined and programmatically added to Firestore through backend scripts, not through client-side input |
+| FR28 | In future releases, the app shall allow providers to create, modify, and delete provider profile
+
 
 ## Non-functional Requirements
 
@@ -108,6 +116,10 @@
 | NFR23 | Only authorized admins can manage services, and all actions must be logged.       |
 | NFR24 | Service management features must be accessible with an uptime of 99.9%.           |
 | NFR25 |All changes to services must be logged and retained for at least 12 months.        |
+
+### Provider Management
+
+
 
 # Change Management Plan
 
@@ -247,7 +259,25 @@ This section demonstrates the relationship between requirements and other artifa
 
 ## Use Case Diagram Traceability
 
-|Artifact ID | Artifact Name | Requirement ID|
-|------------|---------------|---------------|
-|            |               |               |
+|Artifact ID | Artifact Name            | Requirement ID|
+|------------|--------------------------|---------------|
+| UseCase1   | login                    | FR2           |
+| UseCase2   | Add appointment Slots    | FR5, FR12     |
+| UseCase3   | Schedule appointment     | FR6, FR7      |
+| UseCase4   | Add appointment          | FR6           |
+| UseCase5   | Modify appointment       | FR7           |
+| UseCase6   | Retrieve available slots | FR13          |
+| UseCase7   | Pay Booked Appointment   | FR17          |
+| UseCase8   | Process payment          | FR18          |
+| UseCase9   | Add payment detail       | FR20          |
 
+## Class Diagram Traceability
+
+|Artifact Name    | Requirement ID |
+|-----------------|----------------|
+| Provider        | 
+| Service         |
+| AppointmentSlot |
+| User            |
+| Client          |
+| Admin           |
