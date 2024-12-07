@@ -131,4 +131,26 @@
 - All changes to services must be logged and retained for at least 12 months.
 
 # Change Management Plan
-<description>
+
+A change management plan is a document outlining the process for planning, implmenting, and monitoring changes within a project or organization. An effective change management plan helps to control the budget, schedule, scope and resources of the change process. It also ensures smooth transitions, minimizes disruptions, and supports the achievement of project goals while aligning with organizational objectives.
+
+## Change Management Plan for the Application Management System
+
+### Training Plan
+
+#### Identify user roles
+
+The initial phase of implementation involves clearly identifying the roles of system users, as the rollout will occur in multiple stages.
+
+**Phase 1: Administrator training**
+
+During the first release, administrators will be the primary users. They will be trained on data entry processes to input information about available services and service providers into the system.
+
+**Phase 2: Provider Onboarding**
+
+The second release will focus on enabling service providers to manage data entry related to their own services and availability. This phase ensures providers can directly update their schedules and service offerings in the system.
+
+**Administrator Support Role**
+
+Throughout both phases, administrators will play a critical role in supporting clients who prefer to book appointments over the phone, ensuring a smooth transition and consistent customer experience.
+ 
