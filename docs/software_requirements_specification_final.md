@@ -138,30 +138,68 @@ A change management plan is a document outlining the process for planning, implm
 
 ### 1.1 Training Plan
 
-This tarining plan outlines how different user groups will undergo training concering the usage of the application management system.
+This training plan outlines how different user groups will undergo training regarding the use of the application management system.
 
-#### 1.2 Identify User Roles
+#### 1.1.1 Identify User Roles
 
 The initial phase of implementation involves clearly identifying the roles of system users, as the rollout will occur in multiple stages.
 
-##### 1.2.1 Phase 1: Administrator training
+##### Phase 1: Administrator training
 
 During the first release, administrators will be the primary users. They will be trained on data entry processes to input information about available services and service providers into the system.
 
-##### 1.2.2 Phase 2: Provider Onboarding
+##### Phase 2: Provider Onboarding
 
 The second release will focus on enabling service providers to manage data entry related to their own services and availability. This phase ensures providers can directly update their schedules and service offerings in the system.
 
-##### 1.2.3 Administrator Support Role
+##### Administrator Support Role
 
 Throughout both phases, administrators will play a critical role in supporting clients who prefer to book appointments over the phone, ensuring a smooth transition and consistent customer experience.
 
-##### 1.2.4 Client Training
+##### Client Role
 
 Clients are a vital user group and the training will be commence during phase 2 when the system is fully functional. The application will be designed with clients in mind, featuring a user-friendly interface that minimizes the need for formal training. Key features, such as booking appointments and viewing schedules, will be self-explanatory with clear instructions and tooltips.
 
-#### 2.1 Create Role-Specific Training Materials 
+### 1.2 Create Role-Specific Training Materials 
 
-##### Administrators
+#### 1.2.1 Administrator Role
 
+User Guides: Create comprehensive written guides tailored to administrator tasks, such as adding service providers, managing services, updating schedules, and assisting clients with bookings. These guides should include clear screenshots for each step.
 
+Video Tutorials: Develop concise video tutorials that demonstrate common administrator workflows, such as creating and editing services, monitoring bookings, and handling client inquiries. Use real-world scenarios for better context.
+
+FAQs: Include a section addressing frequent questions, such as "How do I update provider availability?" or "What should I do if a client encounters an issue with booking?"
+
+Virtual or On-Site Workshops: Conduct workshops to introduce administrators to the system. Cover key topics like data entry, managing services and providers, and troubleshooting client issues.
+
+Hands-on Sandbox Environment: Provide a sandbox version of the application where administrators can practice entering data, simulating bookings, and managing schedules without affecting live data. Use realistic scenarios to reinforce training.
+
+Ongoing Support: Establish a helpdesk or designate a support team to address post-training questions or technical issues. Ensure administrators have easy access to this resource.
+
+Integrate a feedback feature within the application specifically for administrators to report usability challenges, suggest improvements, or flag technical issues. Regularly review this feedback to refine the application and training materials.
+
+#### 1.2.2 Service Provider Role
+
+User Guides: Develop clear, concise guides tailored to service provider responsibilities, such as updating availability, managing bookings, and communicating with administrators. Include annotated screenshots to guide users through each task.
+
+Video Tutorials: Create short, scenario-based video tutorials covering essential workflows, such as setting up and modifying service availability, and viewing and managing appointments.
+
+FAQs: Address common concerns, such as: "How do I update my availability?" and "What should I do if I can’t accommodate a client at a booked time?"
+
+Workshops: Conduct workshops to introduce service providers to their tools, focusing on navigating their dashboard and updating schedules in real-time.
+
+Sandbox Environment: Provide access to a test environment where providers can practice updating schedules, simulating bookings, and resolving mock client requests. Use real-life scenarios to build confidence and familiarity.
+
+Dedicated Support Channel: Establish a support team or point of contact for service providers to resolve technical issues or answer questions about the system.
+
+Feedback Mechanism: Include a feedback tool specifically for service providers to report usability challenges, suggest new features, or flag errors. Use this feedback to make iterative improvements to the system.
+
+#### 1.2.3 Client Role
+
+Guided Tutorials: Interactive tutorials or walkthroughs will be provided within the application to guide new users through the booking process. These tutorials will be designed to highlight key actions, such as selecting a service, choosing a time slot, and confirming appointments.
+
+Help Center Resources: A dedicated help center will be available, offering FAQs, video guides, and troubleshooting tips tailored for clients. This ensures they have access to self-help resources whenever needed.
+
+Customer Support Assistance: Administrators will be trained to assist clients who require help booking appointments. Support will be provided through multiple channels, including telephone, email, and live chat, ensuring that clients with varying levels of tech-savviness are accommodated.
+
+Feedback Mechanism: A feedback feature will allow clients to report issues or suggest improvements. This will help refine the user experience and address common pain points promptly.
