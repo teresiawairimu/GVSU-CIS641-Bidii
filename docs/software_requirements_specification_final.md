@@ -119,6 +119,11 @@
 
 ### Provider Management
 
+| ID    | Requirement 
+|-------|----------------------------------------------------------------------------|
+| NFR26 | Provider data must sync accurately across the system with 99.9% reliablity |
+
+
 
 
 # Change Management Plan
@@ -273,11 +278,24 @@ This section demonstrates the relationship between requirements and other artifa
 
 ## Class Diagram Traceability
 
-|Artifact Name    | Requirement ID |
-|-----------------|----------------|
-| Provider        | 
-| Service         |
-| AppointmentSlot |
-| User            |
-| Client          |
-| Admin           |
+|Artifact Name    | Requirement ID                  |
+|-----------------|---------------------------------|
+| Provider        | FR28, NFR26                     |
+| Service         | FR24, FR26, NFR22, NFR24,       |
+| AppointmentSlot | FR13, FR14, FR15,  FR16         |
+| User            | FR2, NFR1, NFR2,NFR3            |
+| Client          | FR1, FR2, NFR4                  |
+| Admin           | FR3, FR4, FR5, NFR5             |
+
+## Activity Diagram Traceability
+
+| Artifact ID                           | Artifact Name                               | Requirement ID    |
+|---------------------------------------|---------------------------------------------|-------------------|
+| Use Cases and Activity diagrams-4.pdf | Appointment Booking Process                 | FR7-11, NFR7-10   |
+| Use Cases and Activity diagrams-4.pdf | Payment Processing and Booking Confirmation | FR17-21, NFR16-20 |
+
+# Software Artifacts
+
+This section includes the artifacts developed during the software development process.
+
+ 
