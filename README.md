@@ -12,3 +12,7 @@ This project aims to create an application management system for a Wellness and 
 ## Prerequisites
 
 ## Run Instructions
+
+To run this you need to install nodejs the latest  version.
+You also need react boostrap
+For the Stripe: You need to create an account on Stripe and change the add the secret key provided on the stripe dashboard depending on whether you are using stripe in testmode or live mode 
