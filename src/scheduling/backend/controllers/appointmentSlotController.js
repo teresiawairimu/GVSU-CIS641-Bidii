@@ -17,9 +17,9 @@ const addAppointmentSlot = async(req, res) => {
                 duration,
                 status: 'available',
                 createdAt: admin.firestore.FieldValue.serverTimestamp(),
-            });
-        });
-
+            }); 
+        })
+        
         await batch.commit();
         res.status(201).json({ message: 'Appointment slot created'});
     } catch(error) {
@@ -50,7 +50,7 @@ const retrieveAppointmentSlot = async(req, res) => {
 const retrieveAppointmentSlotById = async(req, res) => {
     try {
       const { id } = req.params
-      const appointmentSlotRef = db.collection('appointmentSlot').doc(id);
+      const appointmentSlotRef = db.collection('appointmentSlots').doc(id);
       const doc = await appointmentSlotRef.get();
 
       if (doc.exists) {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { retrieveAppointmentSlots, deleteAppointmentSlot   } from '../services/appointmentSlotService';
+import { retrieveAppointmentSlots, deleteAppointmentSlot } from '../services/appointmentSlotService';
 import { useNavigate } from 'react-router-dom';
 import { Button, Col, Container, Row, Table  } from 'react-bootstrap';
 import { FaEdit, FaPlus, FaTrashAlt } from 'react-icons/fa';
@@ -24,7 +24,7 @@ const AppointmentSlotPage = () => {
     if (!confirmDelete) return;
     try {
         const idToken = await currentUser.getIdToken();
-        await deleteAppointmentSlot(currentUser.uid, appointmentSlotId, idToken);
+        await deleteAppointmentSlot(appointmentSlotId, idToken);
         setAppointmentSlots(appointmentSlots.filter((appointmentSlot) => appointmentSlot.id !== appointmentSlotId));
     } catch (error) {
         console.error(error);

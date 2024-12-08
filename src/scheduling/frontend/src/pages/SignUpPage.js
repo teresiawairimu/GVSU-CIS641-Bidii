@@ -31,7 +31,7 @@ const SignUpPage = () => {
         email: data.email,
         role: role
       }, idToken);
-      navigate('/login');
+      navigate('/');
     } catch (error) {
         setSignupErrors([error.message])
     }
